@@ -1,0 +1,145 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html, body {
+height: 100%;
+}
+body {
+background-color: rgb(126, 126, 10);
+color: rgba(53, 28, 141, 0.901);
+font-family: "Poppins", sans-serif;
+display: flex;
+flex-direction: column;
+}
+button {
+font-family: "Arial", sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 40px;
+border: none;
+outline: none;
+}
+header {
+width: 100%;
+display: flex;
+padding: 4%;
+justify-content: space-between;
+align-items: center;
+backdrop-filter: blur(20px);
+}
+header ul {
+display: flex;
+gap: 20px;
+list-style-type: none;
+background-color: rgb(247, 247, 242);
+padding: 16px 20px;
+border-radius: 12px;
+}
+.logotipo {
+width: 60px;
+}
+.lista {
+display: flex;
+gap: 20px;
+list-style-type: none;
+background-color: rgb(247, 247, 242);
+padding: 16px 20px;
+border-radius: 12px;
+}
+section {
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+.secao1 {
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url("assets/secao1.webp");
+background-size: cover;
+background-position: center;
+section {
+width: 100%;
+}
+.card {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 15px;
+width: 100%;
+}
+h2 {
+font-size: 40px;
+}
+.apresentacao {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+h1 {
+    text-align: center;
+}
+}
+.botoes {
+opacity: 0.8;
+cursor: pointer;
+display: flex;
+gap: 20px;
+list-style-type: none;
+border-radius: 12px;
+background-color: hsl(0, 9%, 46%);
+padding: 6px 12px;
+font-size: 20px;
+}
+}
+.secao2 {
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 15px;
+width: 100%;
+}
+.secao3 {
+padding: 20px;
+background-color: rgb(112, 114, 115);
+display: flex;
+flex-direction: column;
+align-items: center;
+h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+p {
+text-align: center;
+width: 100%;
+color: rgb(202, 202, 89);
+}
+}
+.secao4 {
+padding: 40px 20px;
+background-color: rgb(213, 217, 219);
+display: flex;
+flex-direction: column;
+align-items: center;
+h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+p {
+text-align: center;
+width: 100%;
+color: rgb(61, 61, 56);
+}
+}
+.footer {
+text-align: center;
+padding: 20px;
+margin-top: auto; /* Garante que o rodapé fique embaixo se o body for flex */
+}
